@@ -3,6 +3,7 @@ import numpy as np
 import json
 from house_model.hardware_data.const import line_name_mapping
 from os import path
+import importlib.resources as rs
 
 # create a bus
 def create_bus(net, bus_name):
@@ -35,9 +36,7 @@ def create_bus_and_connect(net, from_bus, length_km, line_type, line_name):
 
 
 def create_std_types(net):
-
-    with open(path.join("house_model", "hardware_data","cable_types.json")) as f:
-        std_lines = json.load(f)
+    std_lines = json.loads(rs.read_text("house_model.hardware_data", "cable_types.json"))
 
     # create standard types for all cable types
     for line_type in line_name_mapping:

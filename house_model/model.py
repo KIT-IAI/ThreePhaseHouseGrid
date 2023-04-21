@@ -33,4 +33,4 @@ class House_Model:
         self.net = hv.net
         # merge main distributer with all sub-distributers
         for uv in uvs:
-            self.net = tb.merge_nets(self.net, uv.net)
+            self.net = tb.merge_nets(self.net, uv.net, std_prio_on_net1 = True)
