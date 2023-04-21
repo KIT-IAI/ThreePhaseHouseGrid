@@ -1,0 +1,58 @@
+[
+	{
+		"name": "NYY_J_3x1.5",
+		"r_ohm_per_km": 12.1,
+		"x_ohm_per_km": 1.0,
+		"c_nf_per_km": 0.0,
+		"max_i_ka": 0.019
+	},
+	{
+		"name": "NYM_J_3x1.5",
+		"r_ohm_per_km": 12.1,
+		"x_ohm_per_km": 1.0,
+		"c_nf_per_km": 0.0,
+		"max_i_ka": 0.014
+	},
+	{
+		"name": "NYM_J_5x1.5",
+		"r_ohm_per_km": 12.1,
+		"x_ohm_per_km": 1.0,
+		"c_nf_per_km": 0.0,
+		"max_i_ka": 0.014
+	},
+	{
+		"name": "NYM_J_3x2.5",
+		"r_ohm_per_km": 7.41,
+		"x_ohm_per_km": 1.0,
+		"c_nf_per_km": 0.0,
+		"max_i_ka": 0.018
+	},
+	{
+		"name": "NYM_J_5x6",
+		"r_ohm_per_km": 3.08,
+		"x_ohm_per_km": 0.5,
+		"c_nf_per_km": 0.0,
+		"max_i_ka": 0.031
+	},
+	{
+		"name": "NYM_J_5x16",
+		"r_ohm_per_km": 1.15,
+		"x_ohm_per_km": 0.5,
+		"c_nf_per_km": 0.0,
+		"max_i_ka": 0.055
+	},
+	{
+		"name": "NYM_J_5x2.5",
+		"r_ohm_per_km": 7.41,
+		"x_ohm_per_km": 0.5,
+		"c_nf_per_km": 0.0,
+		"max_i_ka": 0.018
+	},
+	{
+		"name": "grid_connection",
+		"r_ohm_per_km": 0.243,
+		"x_ohm_per_km": 1.0,
+		"c_nf_per_km": 0.0,
+		"max_i_ka": 0.1
+	}
+]
