@@ -1,7 +1,7 @@
 # model of sub-distributer 6 (room 1 and 2)
 
 import pandapower as pp
-from src.utils.modeling_methods import (
+from house_model.utils.modeling_methods import (
     create_std_types,
     create_bus,
     create_bus_and_connect,

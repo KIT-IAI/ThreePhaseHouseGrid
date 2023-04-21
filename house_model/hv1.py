@@ -1,6 +1,6 @@
 # model of main distributer sub-part 1 (red sockets and technic IT)
 import pandapower as pp
-from src.utils.modeling_methods import (
+from house_model.utils.modeling_methods import (
     create_std_types,
     create_bus,
     create_bus_and_connect,

@@ -2,7 +2,7 @@
 
 import pandapower as pp
 import pandapower.toolbox as tb
-from src.utils.modeling_methods import (
+from house_model.utils.modeling_methods import (
     create_std_types,
     create_bus,
     create_bus_and_connect,

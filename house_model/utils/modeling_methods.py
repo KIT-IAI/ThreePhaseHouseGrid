@@ -1,7 +1,7 @@
 import pandapower as pp
 import numpy as np
 import json
-from hardware_data.const import line_name_mapping
+from house_model.hardware_data.const import line_name_mapping
 from os import path
 
 # create a bus
@@ -36,7 +36,7 @@ def create_bus_and_connect(net, from_bus, length_km, line_type, line_name):
 
 def create_std_types(net):
 
-    with open(path.join("hardware_data","cable_types.json")) as f:
+    with open(path.join("house_model", "hardware_data","cable_types.json")) as f:
         std_lines = json.load(f)
 
     # create standard types for all cable types
