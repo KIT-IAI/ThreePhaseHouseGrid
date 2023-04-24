@@ -34,3 +34,7 @@ class House_Model:
         # merge main distributer with all sub-distributers
         for uv in uvs:
             self.net = tb.merge_nets(self.net, uv.net, std_prio_on_net1 = True)
+
+        # the pandapower merge function requires an external grid for every net that should be merged. Delete them
+        ext_grids = list(range(1, len(self.net.ext_grid)))
+        self.net.ext_grid.drop(ext_grids, inplace=True)
